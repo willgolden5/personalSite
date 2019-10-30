@@ -49,7 +49,7 @@ const Footer = () => (
             <Fade left>
               <TextFooter fontSize={[2, 3]}>
                 <span>{`${name}'s Portfolio - Built using `}</span>
-                <Link href="https://www.gatsbyjs.org/">Gatsby</Link>
+                <Link href="https://www.gatsbyjs.org/">Gatsby </Link>
                 <span> and </span>
                 <Link href="https://www.contentful.com/" mr={1}>
                   Contentful
