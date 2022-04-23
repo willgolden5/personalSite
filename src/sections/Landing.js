@@ -78,7 +78,16 @@ const LandingPage = () => (
             >
               {`Hello, I'm ${name}!`}
             </Heading>
-
+            <Heading
+              as="h2"
+              color="primary"
+              fontSize={[4, 5, 6]}
+              mb={[3, 5]}
+              textAlign="center"
+              style={centerHorizontally}
+            >
+              <Text>Thanks for checking me out! I'm proficient in:</Text>
+            </Heading>
             <Heading
               as="h2"
               color="primary"
@@ -89,7 +98,7 @@ const LandingPage = () => (
             >
               <TextLoop interval={5000}>
                 {roles
-                  .sort(() => deterministicBehaviour || Math.random() - 0.5)
+                  .sort(() => deterministicBehaviour || Math.random() - 0.25)
                   .map(text => (
                     <Text width={[300, 500]} key={text}>
                       {text}
