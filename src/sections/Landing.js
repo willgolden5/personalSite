@@ -87,7 +87,7 @@ const LandingPage = () => (
               style={centerHorizontally}
             >
               <Text>Thanks for checking me out!</Text>
-              <Text>I'm proficient in:</Text>
+              <Text>I'm proficient at:</Text>
             </Heading>
             <Heading
               as="h2"
@@ -97,7 +97,7 @@ const LandingPage = () => (
               textAlign="center"
               style={centerHorizontally}
             >
-              <TextLoop interval={5000}>
+              <TextLoop interval={2000}>
                 {roles
                   .sort(() => deterministicBehaviour || Math.random() - 0.25)
                   .map(text => (
