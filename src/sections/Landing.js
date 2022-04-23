@@ -86,7 +86,8 @@ const LandingPage = () => (
               textAlign="center"
               style={centerHorizontally}
             >
-              <Text>Thanks for checking me out! I'm proficient in:</Text>
+              <Text>Thanks for checking me out!</Text>
+              <Text>I'm proficient in:</Text>
             </Heading>
             <Heading
               as="h2"
