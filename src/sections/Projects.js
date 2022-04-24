@@ -124,7 +124,6 @@ const Project = ({
           {description}
         </Text>
       </TextContainer>
-
       <ImageContainer>
         <ProjectImage src={logo.image.src} alt={logo.title} />
         <ProjectTag>
